@@ -1,15 +1,17 @@
 function Exercicioteste7() {
   function atividadeTeste() {
-    let primeiroResultado = document.getElementById("primeiro-numero").value;
-    let segundoResultado = document.getElementById("segundo-numero");
+    let primeiroResultado = Number(document.getElementById("primeiro-numero").value);
+    let segundoResultado = Number(document.getElementById("segundo-numero").value);
 
+    let soma = document.getElementById("resultado");
     let total = segundoResultado + primeiroResultado;
-    resultado.innerText = `Total: R$ ${total.toFixed(2)}`;
+
+    soma.innerText = "O resultado é:  " + total;
   }
 
   return (
     <div
-      style={{
+      style={{ 
         padding: "20px",
         border: "1px solid #ccc",
         marginTop: "30px",
@@ -28,7 +30,9 @@ function Exercicioteste7() {
       />
       <button onClick={atividadeTeste}>Soma Total</button>
 
-      <div id="resultado"></div>
+      <div>
+        <h2 id="resultado">O resultado é:</h2>
+      </div>
     </div>
   );
 }
