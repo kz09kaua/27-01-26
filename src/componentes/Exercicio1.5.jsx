@@ -6,7 +6,9 @@ function Exercicio15() {
   }
 
   return (
-    <div style={{ padding: "20px", border: "1px solid #ccc" }}>
+    <div
+      style={{ padding: "20px", border: "1px solid #ccc", marginTop: "30px" }}
+    >
       <h2>Controle de entregas - Exercício 1.5</h2>
       <p className="status-ex15">Pedido em separação...</p>
 

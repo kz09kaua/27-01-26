@@ -10,7 +10,7 @@ function Atividade3() {
       style={{
         padding: "20px",
         border: "2px solid #ccc",
-        marginTop: "10px",
+        marginTop: "30px",
         fontWeight: "bold",
       }}
     >

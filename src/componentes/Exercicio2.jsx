@@ -18,7 +18,9 @@ function Exercicio2teste() {
       fatura.vencimento;
   }
   return (
-    <div style={{ padding: "20px", border: "1px solid #ccc" }}>
+    <div
+      style={{ padding: "20px", border: "1px solid #ccc", marginTop: "30px" }}
+    >
       <h2>Processamento de fatura</h2>
       <button onClick={processarDados}>Processar Dados </button>
       <div
